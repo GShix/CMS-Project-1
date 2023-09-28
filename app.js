@@ -1,7 +1,7 @@
 const { connectDatabase } = require("./database/database");
-const Blog = require("./model/blog_model");
 // export object baata connectDatabase jhikeko -> Destructuring vanxa eslai
 const express = require("express");
+const Blog = require("./model/blogModel");
 const app = express();
 
 // nodejs lai form bata aako data parse gar vaneko ho
