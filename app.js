@@ -1,5 +1,5 @@
 const { connectDatabase } = require("./database/database");
-
+// export object baata connectDatabase jhikeko -> Destructuring vanxa eslai
 const app = require("express")();
 
 
